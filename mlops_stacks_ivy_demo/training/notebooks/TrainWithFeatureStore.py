@@ -12,6 +12,7 @@
 # * experiment_name (required)      - MLflow experiment name for the training runs. Will be created if it doesn't exist.
 # * model_name (required)           - Three-level name (<catalog>.<schema>.<model_name>) to register the trained model in Unity Catalog. 
 #  
+
 ##################################################################################
 
 # COMMAND ----------
@@ -31,6 +32,7 @@ notebook_path =  '/Workspace/' + os.path.dirname(dbutils.notebook.entry_point.ge
 
 # COMMAND ----------
 
+#add a test comment
 dbutils.library.restartPython()
 
 # COMMAND ----------
